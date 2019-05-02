@@ -21,6 +21,12 @@
             android:text="Encapsulation"/>
 
     <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnPolimorfismo"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Polimorfismo"/>
+
+    <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnAbstract"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
@@ -31,6 +37,5 @@
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
             android:text="Interface"/>
-
 
 </androidx.appcompat.widget.LinearLayoutCompat>
