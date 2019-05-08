@@ -3,7 +3,7 @@ package com.flores.pooandroid
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.flores.pooandroid.heritage.HeritageActivity
+import com.flores.pooandroid.Inheritance.InheritanceActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         btnHeritage.setOnClickListener {
-            startActivity(Intent(this, HeritageActivity::class.java))
+            startActivity(Intent(this, InheritanceActivity::class.java))
         }
     }
 }

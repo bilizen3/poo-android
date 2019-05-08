@@ -1,4 +1,4 @@
-package com.flores.pooandroid.heritage
+package com.flores.pooandroid.Inheritance
 
 class Cat : Animal() {
 
