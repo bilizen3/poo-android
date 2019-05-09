@@ -15,8 +15,14 @@ class MainActivity : AppCompatActivity() {
         btnHeritage.setOnClickListener {
             startActivity(Intent(this, InheritanceActivity::class.java))
         }
+
+        btnEncapsulation.setOnClickListener {
+
+        }
+
         btnAbstract.setOnClickListener {
             startActivity(Intent(this, AbstractActivity::class.java))
         }
+
     }
 }
