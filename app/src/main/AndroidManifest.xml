@@ -9,6 +9,8 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".samplePolymorphism.PolymorphismActivity">
+        </activity>
         <activity android:name=".sampleEncapsulation.EncapsulationActivity">
         </activity>
         <activity android:name=".sampleAbstract.AbstractActivity">
