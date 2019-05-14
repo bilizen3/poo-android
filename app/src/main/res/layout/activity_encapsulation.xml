@@ -7,15 +7,10 @@
         android:orientation="vertical"
         tools:context=".sampleEncapsulation.EncapsulationActivity">
 
-    <androidx.appcompat.widget.AppCompatEditText
+    <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvDetails"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
-            android:hint="Nombre"
-            android:id="@+id/etName"/>
-
-    <androidx.appcompat.widget.AppCompatEditText
-            android:layout_height="wrap_content"
-            android:layout_width="match_parent"
-            android:id="@+id/etNote"/>
+            android:hint="Details"/>
 
 </androidx.appcompat.widget.LinearLayoutCompat>
